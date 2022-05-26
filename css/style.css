@@ -11,7 +11,7 @@ body, html {
 	padding-right: 10px
 }
 h2 {
-	margin: 0 0 20px 0;
+	margin: 20px 0;
 	color: #555;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -20,11 +20,19 @@ h2 {
 }
 h3 {
 	color: #222;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 1px;
-	margin-top: -4px;
-	margin-bottom: -4px
+	margin: 0;
+	text-align: right;
+	padding-top: 15px
+}
+#float {
+	display: flex;
+	justify-content: flex-end
+}
+#caption {
+	position: inherit !important
 }
 h4 {
 	color: #222;
@@ -37,6 +45,17 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+}
+h6 {
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin: -4px 0 0 20px;
+	background: #091d3a;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 0
 }
 p.intro {
 	font-size: 16px;
@@ -88,12 +107,14 @@ hr {
 
 /* Portfolio Section */
 #portfolio {
-	padding: 40px 0;
 	background: #f6f6f6;
 }
 .categories {
 	padding-bottom: 15px;
 	text-align: center;
+}
+.categories img {
+	width: 30px
 }
 ul.cat li {
 	display: inline-block;
@@ -104,18 +125,18 @@ ol.type li {
 	margin-top: 25px
 }
 ol.type li a {
-	border: 1px solid #777;
-	color: #555;
+	border: 1px solid #091d3a;
+	color: #091d3a;
 	padding: 8px 20px;
 }
 ol.type li a.active {
-	background: #222;
-	border: 1px solid #222;
+	background: #091d3a;
+	border: 1px solid #091d3a;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #222;
-	border: 1px solid #222;
+	background: #091d3a;
+	border: 1px solid #091d3a;
 	color: #fff;
 }
 .isotope-item {
@@ -215,6 +236,10 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+video {
+	width: 303px;
+	margin-left: 20px
+}
 
 /* Footer Section*/
 #footer {
@@ -226,7 +251,7 @@ ol.type li a:hover {
 	font-size: 13px;
 }
 #footer a {
-	color: #555;
+	color: #091d3a;
 }
 #footer a:hover {
 	color: #000;
