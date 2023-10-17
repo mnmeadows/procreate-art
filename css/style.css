@@ -52,7 +52,7 @@ h6 {
 	font-weight: 300;
 	letter-spacing: 1px;
 	margin: -4px 0 0 20px;
-	background: #091d3a;
+	background: #AA7B4E;
 	border-radius: 50px;
 	text-align: center;
 	padding: 5px 0
@@ -125,18 +125,18 @@ ol.type li {
 	margin-top: 25px
 }
 ol.type li a {
-	border: 1px solid #091d3a;
-	color: #091d3a;
+	border: 1px solid #AA7B4E;
+	color: #AA7B4E;
 	padding: 8px 20px;
 }
 ol.type li a.active {
-	background: #091d3a;
-	border: 1px solid #091d3a;
+	background: #AA7B4E;
+	border: 1px solid #AA7B4E;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #091d3a;
-	border: 1px solid #091d3a;
+	background: #AA7B4E;
+	border: 1px solid #AA7B4E;
 	color: #fff;
 }
 .isotope-item {
@@ -251,7 +251,7 @@ video {
 	font-size: 13px;
 }
 #footer a {
-	color: #091d3a;
+	color: #AA7B4E;
 }
 #footer a:hover {
 	color: #000;
